@@ -1,0 +1,7 @@
+papers:
+
+  - title: "Pipemare: Asynchronous Pipeline Parallel DNN Training"
+    authors: "Bowen Yang, Jian Zhang, <u>Jonathan Li</u>, Christopher Ré, Christopher Aberger, Christopher De Sa"
+    venue: "Fourth Conference on Machine Learning Systems"
+    year: "2021"
+    paper_pdf: "https://proceedings.mlsys.org/paper_files/paper/2021/file/9412531719be7ccf755c4ff98d0969dc-Paper.pdf"
