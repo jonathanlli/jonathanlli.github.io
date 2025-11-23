@@ -1,7 +1,38 @@
 papers:
 
+  - title: "Constructing Domain-Specific Evaluation Sets for LLM-as-a-judge"
+    authors: "Ravi Shanker Raju, Swayambhoo Jain, Bo Li, <u>Jonathan Lingjie Li</u>, Urmish Thakker"
+    venue: "First Workshop on Customizable NLP"
+    year: "2024"
+    paper_pdf: "https://aclanthology.org/2024.customnlp4u-1.14.pdf"
+
+  - title: "SambaLingo: Teaching Large Language Models New Languages"
+    authors: "Zoltan Csaki, Bo Li, <u>Jonathan Lingjie Li</u>, Qiantong Xu, Pian Pawakapan, Leon Zhang, Yun Du, Hengyu Zhao, Changran Hu, Urmish Thakker"
+    venue: "Fourth Workshop on Multilingual Representation Learning"
+    year: "2024"
+    paper_pdf: "https://aclanthology.org/2024.mrl-1.1.pdf"
+
+  - title: "HALOS: Hashing Large Output Space for Cheap Inference"
+    authors: "Zichang Liu, Zhaozhuo Xu, Alan Ji, Junyan Zhang, <u>Jonathan Li</u>, Beidi Chen, Anshumali Shrivastava"
+    venue: "Fifth Conference on Machine Learning Systems"
+    year: "2022"
+    paper_pdf: "https://proceedings.mlsys.org/paper_files/paper/2022/file/b059dd6da6b9a86180fbc32a799766cc-Paper.pdf"
+
+  - title: "MONGOOSE: A Learnable LSH Framework for Efficient Neural Network Training"
+    authors: "Beidi Chen, Zichang Liu, Binghui Peng, Zhaozhuo Xu, <u>Jonathan Lingjie Li</u>, Tri Dao, Zhao Song, Anshumali Shrivastava, Christopher Re"
+    venue: "Ninth International Conference on Learning Representations"
+    year: "2021"
+    paper_pdf: "https://openreview.net/pdf?id=wWK7yXkULyh"
+    code: "https://github.com/HazyResearch/mongoose"
+
   - title: "Pipemare: Asynchronous Pipeline Parallel DNN Training"
     authors: "Bowen Yang, Jian Zhang, <u>Jonathan Li</u>, Christopher Ré, Christopher Aberger, Christopher De Sa"
     venue: "Fourth Conference on Machine Learning Systems"
     year: "2021"
     paper_pdf: "https://proceedings.mlsys.org/paper_files/paper/2021/file/9412531719be7ccf755c4ff98d0969dc-Paper.pdf"
+
+  - title: "Climbing the WOL: Training for Cheaper Inference"
+    authors: "Zichang Liu, Zhaozhuo Xu, Alan Ji, <u>Jonathan Li</u>, Beidi Chen, Anshumali Shrivastava"
+    venue: "Preprint"
+    year: "2020"
+    paper_pdf: "https://arxiv.org/pdf/2007.01230"
