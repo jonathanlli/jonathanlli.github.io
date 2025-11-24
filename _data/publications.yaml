@@ -1,16 +1,49 @@
 papers:
 
+  - title: "SnapStream: Efficient Long Sequence Decoding on Dataflow Accelerators"
+    authors: "<u>Jonathan Li</u>, Nasim Farahini, Evgenii Iuliugin, Magnus Vesterlund, Christian Häggström, Guangtao Wang, Shubhangi Upasani, Ayush Sachdeva, Rui Li, Faline Fu, Chen Wu, Ayesha Siddiqua, John Long, Tuowen Zhao, Matheen Musaddiq, Håkan Zeffer, Yun Du, Mingran Wang, Qinghua Li, Bo Li, Urmish Thakker, Raghu Prabhakar"
+    venue: "Preprint"
+    year: "2025"
+    paper_pdf: "https://arxiv.org/pdf/2511.03092"
+
+  - title: "Synthetic Document Question Answering in Hungarian"
+    authors: "<u>Jonathan Li</u>, Zoltan Csaki, Nidhi Hiremath, Etash Guha, Fenglu Hong, Edward Ma, Urmish Thakker"
+    venue: "Vision Language Models For All Workshop @ CVPR"
+    year: "2025"
+    paper_pdf: "https://openreview.net/pdf?id=FNfl8Ceh01"
+    hf: "https://huggingface.co/collections/jlli/hungarian-document-datasets"
+    code: "https://github.com/snova-jonathanl/HuDocVQA"
+
+  - title: "LLMs Know What to Drop: Self-Attention Guided KV Cache Eviction for Efficient Long-Context Inference"
+    authors: "Guangtao Wang, Shubhangi Upasani, Chen Wu, Darshan Gandhi, <u>Jonathan Lingjie Li</u>, Changran Hu, Bo Li, Urmish Thakker"
+    venue: "Workshop on Sparsity in LLMs @ ICLR"
+    year: "2025"
+    paper_pdf: "https://openreview.net/pdf?id=qg9dlCcNzr"
+
+  - title: "Training Domain Draft Models for Speculative Decoding: Best Practices and Insights"
+    authors: "Fenglu Hong, Ravi Raju, <u>Jonathan Lingjie Li</u>, Bo Li, Urmish Thakker, Avinash Ravichandran, Swayambhoo Jain, Changran Hu"
+    venue: "Workshop on Scalable Optimization for Effiient and Adaptive Foundation Models @ ICLR"
+    year: "2025"
+    paper_pdf: "https://openreview.net/pdf?id=7FBJIxYXxd"
+
+  - title: "Composition of Experts: A Modular Compound AI System Leveraging Large Language Models"
+    authors: "Swayambhoo Jain, Ravi Raju, Bo Li, Zoltan Csaki, <u>Jonathan Li</u>, Kaizhao Liang, Guoyao Feng, Urmish Thakkar, Anand Sampat, Raghu Prabhakar, Sumati Jairath"
+    venue: "Preprint"
+    year: "2024"
+    paper_pdf: "https://arxiv.org/pdf/2412.01868"
+
   - title: "Constructing Domain-Specific Evaluation Sets for LLM-as-a-judge"
     authors: "Ravi Shanker Raju, Swayambhoo Jain, Bo Li, <u>Jonathan Lingjie Li</u>, Urmish Thakker"
-    venue: "First Workshop on Customizable NLP"
+    venue: "First Workshop on Customizable NLP @ EMNLP"
     year: "2024"
     paper_pdf: "https://aclanthology.org/2024.customnlp4u-1.14.pdf"
 
   - title: "SambaLingo: Teaching Large Language Models New Languages"
     authors: "Zoltan Csaki, Bo Li, <u>Jonathan Lingjie Li</u>, Qiantong Xu, Pian Pawakapan, Leon Zhang, Yun Du, Hengyu Zhao, Changran Hu, Urmish Thakker"
-    venue: "Fourth Workshop on Multilingual Representation Learning"
+    venue: "Fourth Workshop on Multilingual Representation Learning @ EMNLP"
     year: "2024"
     paper_pdf: "https://aclanthology.org/2024.mrl-1.1.pdf"
+    hf: "https://huggingface.co/collections/sambanovasystems/sambalingo"
 
   - title: "HALOS: Hashing Large Output Space for Cheap Inference"
     authors: "Zichang Liu, Zhaozhuo Xu, Alan Ji, Junyan Zhang, <u>Jonathan Li</u>, Beidi Chen, Anshumali Shrivastava"

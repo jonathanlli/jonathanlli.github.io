@@ -4,7 +4,7 @@ title: Home
 ---
 <br>
 <h4>Publications</h4>
-<p>Please find an up-to-date list of publications on my <a href="https://scholar.google.com/citations?user=6kk60E4AAAAJ&hl=en" target="_blank">Google Scholar</a>.  </p>
+<p>Please find an up-to-date list of publications on my <a href="https://scholar.google.com/citations?user=6kk60E4AAAAJ&hl=en" target="_blank">Google Scholar</a>.  Code published while at SambaNova uses my corporate GitHub account.</p>
 
 {% assign papers = site.data.publications.papers %}
 {% for paper in papers %}
@@ -34,9 +34,9 @@ title: Home
           {% if paper.blog %}
             <a class="button" href="{{ paper.blog }}" target="_blank">Blog</a>
           {% endif %}
-          {% if paper.policy_brief %}
-            <a class="button" href="{{ paper.policy_brief }}" target="_blank">Policy Brief</a>
-          {% endif %}
+	  {% if paper.hf %}
+            <a class="button" href="{{ paper.hf }}" target="_blank">Hugging Face</a>
+          {% endif %}  
         </p>
         <p>{{ paper.authors }}</p>
         <p><i>{{ paper.venue }}</i> ({{ paper.year }})</p>
