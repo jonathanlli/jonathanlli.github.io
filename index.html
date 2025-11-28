@@ -5,9 +5,38 @@ title: Home
 <div class="docs-section" id="bio">
 <p>
   <!-- I am a sixth year JD-PhD student in Computer Science at Stanford University (advised by <a href="https://cs.stanford.edu/~chrismre/">Chris Ré</a>). I'm a part of the <a href="https://hazyresearch.stanford.edu/">Hazy Research Lab</a>, <a href="https://crfm.stanford.edu/">Stanford Center for Research on Foundation Models</a>, and <a href="https://reglab.stanford.edu/">RegLab</a>. I graduated with a MS in Machine Learning from Carnegie Mellon University ('19) and a BS (with Honors) in Computer Science from Stanford University ('18). I am grateful to be supported by the <a href="https://vpge.stanford.edu/fellowships-funding/sigf">Stanford Interdisciplinary Graduate Fellowship (SIGF)</a> and the <a href= "https://hai.stanford.edu/news/stanford-hai-welcomes-graduate-postdoc-fellows">HAI Graduate Fellowship</a>.  -->
-  I am a Machine Learning Engineer at SambaNova Systems. I graduated with a MS in Computer Science from Stanford University ('21) and a BS in Computer Science from Carnegie Mellon University ('19).
+  I am a Machine Learning Research Engineer at SambaNova Systems. Previously, I was a research assistant at <a href="https://hazyresearch.stanford.edu/">Hazy Research</a> advised by <a href="https://cs.stanford.edu/~chrismre/">Chris Ré</a> and at the <a href="https://shahlab.stanford.edu/">Shah Lab</a> with <a href="https://profiles.stanford.edu/nigam-shah">Professor Nigam Shah</a>. I graduated with a MS in Computer Science from Stanford University ('21) and a BS in Computer Science from Carnegie Mellon University ('19). My research interests lie at the intersection of  machine learning systems, natural language processing, and neural network efficiency. My work can be roughly split into two categories:
 </p>
-  
+<style>
+  .custom-list {
+    list-style-type: none; /* Remove default bullet points */
+    margin-left: 40px;
+    color: #333; /* Darker color for bullets */
+  }
+  .custom-list li::before {
+      content: "\25B6"; /* Unicode for a triangle */
+      color: #333;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+    }
+</style>
+<p>
+  <ul class="custom-list">
+    <li>
+      <b> Sparsity in LLMs </b> I am interested in leveraging sparsity along different dimensions of modern LLMs to realize practical improvements in compute, memory utilization, and bandwidth. Sparsity can manifest itself along the sequence dimension, head dimension, expert dimension, or hidden dimension (and that's just what we've found thus far!); how can we efficiently discover these sparse patterns, and how can we design algorithms to take advantage of them? Examples of such work include <a href="https://openreview.net/forum?id=wWK7yXkULyh">MONGOOSE</a>, <a href="https://proceedings.mlsys.org/paper_files/paper/2022/file/b059dd6da6b9a86180fbc32a799766cc-Paper.pdf">HALOS</a>, <a href="https://arxiv.org/abs/2503.08879v1">SAGE-KV</a>, and <a href="https://arxiv.org/abs/2511.03092">SnapStream</a>.
+    </li>
+    <li>
+      <b> Domain-Specific LLMs </b> Tailoring LLMs to new domains can entail a whole range of different compute budgets, continuous pretraining, instruction tuning, reinforcment learning, prompt caching, or prompt tuning. Whether it's law, finance, Hungarian, or a new modality entirely, I am interested in studying the data requirements and compute trade-offs involved in LLM adaptation. Examples of this work include <a href="https://arxiv.org/abs/2404.05829">SambaLingo</a>, our work on <a href="https://arxiv.org/abs/2408.08808">domain-specific evaluation sets</a>, <a href="https://arxiv.org/abs/2412.01868">Composition of Experts</a>, our work on <a href="https://arxiv.org/abs/2503.07807">domain-specific draft models</a> for speculative decoding, and <a href="https://arxiv.org/pdf/2505.23008">HuDocVQA</a>.
+    </li>
+  </ul>
+</p>
+
+<p>
+I've also helped develop and release several open-source models: BLOOMChat (<a href="https://sambanova.ai/blog/introducing-bloomchat-176b-the-multilingual-chat-based-llm">blog</a>, <a href="https://huggingface.co/sambanovasystems/BLOOMChat-176B-v1">HF</a>), BLOOMChat-v2 (<a href="https://sambanova.ai/blog/bloomchat-v2">blog</a>, <a href="https://huggingface.co/sambanovasystems/BLOOMChat-176B-v2">HF</a>), SambaLingo (<a href="https://sambanova.ai/blog/sambalingo-open-source-language-experts">blog</a>, <a href="https://huggingface.co/collections/sambanovasystems/sambalingo">HF</a>).
+</p>
+
+</div>  
 <div class="docs-section" id="ack">
 <p>
   Website design and template by <a href="https://github.com/msaveski/www_personal">Martin Saveski</a>.
