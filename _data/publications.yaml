@@ -69,3 +69,9 @@ papers:
     venue: "Preprint"
     year: "2020"
     paper_pdf: "https://arxiv.org/pdf/2007.01230"
+
+  - title: "Multirotor UAV State Prediction through Multi-Microphone Side-Channel Fusion"
+    authors: "Hendrik Vincent Koops, Kashish Garg, Munsung Kim, <u>Jonathan Li</u>, Anja Volk, Franz Franchetti"
+    venue: "IEEE International Conference on Multisensor Fusion and Integration for Intelligent Systems"
+    year: "2017"
+    paper_pdf: "https://spiral.ece.cmu.edu/pub-spiral/pubfile/mfi_2017_koops_285.pdf"
